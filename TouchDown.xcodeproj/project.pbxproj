@@ -17,6 +17,8 @@
 		E29406072A39A477001A9DE5 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = E29406032A39A477001A9DE5 /* product.json */; };
 		E29406122A39A7D7001A9DE5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29406112A39A7D7001A9DE5 /* Constant.swift */; };
 		E29406142A39A9FC001A9DE5 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29406132A39A9FC001A9DE5 /* FooterView.swift */; };
+		E29406162A39B0C0001A9DE5 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29406152A39B0C0001A9DE5 /* NavigationBarView.swift */; };
+		E29406182A39B13E001A9DE5 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29406172A39B13E001A9DE5 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E29406092A39A58D001A9DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E29406112A39A7D7001A9DE5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E29406132A39A9FC001A9DE5 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		E29406152A39B0C0001A9DE5 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		E29406172A39B13E001A9DE5 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				E29406132A39A9FC001A9DE5 /* FooterView.swift */,
+				E29406152A39B0C0001A9DE5 /* NavigationBarView.swift */,
+				E29406172A39B13E001A9DE5 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29405F52A39A116001A9DE5 /* ContentView.swift in Sources */,
+				E29406182A39B13E001A9DE5 /* LogoView.swift in Sources */,
+				E29406162A39B0C0001A9DE5 /* NavigationBarView.swift in Sources */,
 				E29406142A39A9FC001A9DE5 /* FooterView.swift in Sources */,
 				E29405F32A39A116001A9DE5 /* TouchDownApp.swift in Sources */,
 				E29406122A39A7D7001A9DE5 /* Constant.swift in Sources */,
@@ -366,7 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,7 +405,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
