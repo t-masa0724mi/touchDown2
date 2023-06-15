@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25BD2A12A3AEABD00DB8AC4 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BD2A02A3AEABD00DB8AC4 /* Shop.swift */; };
 		E2616A2D2A39E69A00799AE1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2616A2C2A39E69A00799AE1 /* TitleView.swift */; };
 		E2616A2F2A39E9EC00799AE1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2616A2E2A39E9EC00799AE1 /* ProductModel.swift */; };
 		E2616A312A39EC6000799AE1 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2616A302A39EC6000799AE1 /* ProductItemView.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E25BD2A02A3AEABD00DB8AC4 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		E2616A2C2A39E69A00799AE1 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		E2616A2E2A39E9EC00799AE1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		E2616A302A39EC6000799AE1 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			children = (
 				E29406112A39A7D7001A9DE5 /* Constant.swift */,
 				E2616A402A3ADED900799AE1 /* CustomShape.swift */,
+				E25BD2A02A3AEABD00DB8AC4 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				E2616A412A3ADED900799AE1 /* CustomShape.swift in Sources */,
 				E29E02372A39B77800B881E9 /* PlayerModel.swift in Sources */,
 				E2616A332A3AD36B00799AE1 /* BrandModel.swift in Sources */,
+				E25BD2A12A3AEABD00DB8AC4 /* Shop.swift in Sources */,
 				E2616A2D2A39E69A00799AE1 /* TitleView.swift in Sources */,
 				E2616A2F2A39E9EC00799AE1 /* ProductModel.swift in Sources */,
 				E2616A452A3AE33F00799AE1 /* QuantityFavouriteDetailView.swift in Sources */,
